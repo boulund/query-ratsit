@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 def parse_args(argv):
     """
-    Parse commandline arguments
+    Parse arguments
     """
     desc = "Query Ratsit.se for address information based on personal number and name. Careful!"
     parser = argparse.ArgumentParser(description=desc)
